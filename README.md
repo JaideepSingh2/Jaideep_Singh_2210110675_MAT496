@@ -39,4 +39,4 @@ Cell 6, Added print statements to show progress when uploading dataset examples 
 Cell 11, Added print statements to show the question being asked and when a response is received from the RAG application.
 file: Jaideep_Singh_2210110675_MAT496/notebooks/module_2/dataset_upload.ipynb
 
-![alt text](images/image1.png)
+![screenshot of the filled dataset](images/image1.png)
