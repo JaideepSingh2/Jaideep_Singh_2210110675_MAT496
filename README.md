@@ -28,3 +28,13 @@ By assigning a fixed thread ID in the metadata of each run, you link all back-an
 Tweaking:
 I tweaked Cell 10 by adding a print statement in the retrieve_documents function to display how many documents were retrieved for each question.
 file:Jaideep_Singh_2210110675_MAT496/notebooks/module_1/conversational_threads.ipynb
+
+Module2:
+
+Video1:
+Following the video's instructions, I created a dataset in LangSmith with a flexible schema, using AI to generate five of the data points. Datasets are collections of inputs and optional outputs that serve as examples to evaluate and improve a model's performance. This process also involved experimenting with the data's format and structure to suit different needs.
+
+Tweaking:
+Cell 6, Added print statements to show progress when uploading dataset examples - displays how many examples are being uploaded and confirms successful upload.
+Cell 11, Added print statements to show the question being asked and when a response is received from the RAG application.
+file: Jaideep_Singh_2210110675_MAT496/notebooks/module_2/dataset_upload.ipynb
