@@ -21,3 +21,10 @@ LangSmith offers several tracing methods beyond the automatic traceable decorato
 Tweaking:
 I tweaked Cell 11 by adding a function that prints a message when the LangGraph graph is compiled, providing user feedback.
 file:Jaideep_Singh_2210110675_MAT496/notebooks/module_1/alternative_tracing_methods.ipynb
+
+Video4:
+By assigning a fixed thread ID in the metadata of each run, you link all back-and-forth interactions into a single, continuous conversation thread within LangSmith. This method provides a complete historical view of a specific chat session, making it much easier to trace and debug context-dependent behavior.
+
+Tweaking:
+I tweaked Cell 10 by adding a print statement in the retrieve_documents function to display how many documents were retrieved for each question.
+file:Jaideep_Singh_2210110675_MAT496/notebooks/module_1/conversational_threads.ipynb
