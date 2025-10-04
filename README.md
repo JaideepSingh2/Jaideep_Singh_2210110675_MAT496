@@ -49,3 +49,9 @@ An evaluator is a function that measures the quality of an LLM's output by compa
 Tweaking:
 I tweaked Cell 12 by adding print statements that display the reference output, run output, and expected evaluation result before running the semantic similarity comparison. This makes it clearer what the evaluator is comparing.
 file: Jaideep_Singh_2210110675_MAT496/notebooks/module_2/evaluators.ipynb
+
+Video3:
+In LangSmith, an experiment is the process of running your application against an entire dataset and using evaluators to score the outputs. This effectively combines the concepts of datasets and evaluators into a single workflow. It allows you to systematically test how your application performs on a wide range of examples and get automated feedback.
+
+Tweaking:
+Added my own dataset, it's custom tag versions, my own custom splits, also played around with different models to see how it changes the experiment.
