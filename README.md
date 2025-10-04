@@ -14,3 +14,10 @@ From the video, I understood that LangSmith uses different run types to categori
 
 Tweaking:
 Added a personalized greeting using the user's name in the tool response and input. Jaideep_Singh_2210110675_MAT496/notebooks/module_1/types_of_runs.ipynb cell 10
+
+Video3:
+LangSmith offers several tracing methods beyond the automatic traceable decorator and Langgraph. For more specific logging, you can use the trace() function or wrap_openai, while the RunTree class provides the most fine-grained control at the lowest level. This variety lets you choose the right balance between ease of use and detailed control for your application's needs.
+
+Tweaking:
+I tweaked Cell 11 by adding a function that prints a message when the LangGraph graph is compiled, providing user feedback.
+file:Jaideep_Singh_2210110675_MAT496/notebooks/module_1/alternative_tracing_methods.ipynb
