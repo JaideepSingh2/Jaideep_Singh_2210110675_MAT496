@@ -40,3 +40,12 @@ Cell 11, Added print statements to show the question being asked and when a resp
 file: Jaideep_Singh_2210110675_MAT496/notebooks/module_2/dataset_upload.ipynb
 
 ![screenshot of the filled dataset](images/image1.png)
+
+Video2:
+An evaluator is a function that measures the quality of an LLM's output by comparing it to a reference answer from a dataset and assigning a score. This process is used to automatically judge the performance of your application. Following the course video, I created a specific type of evaluator that calculates a similarity score between the model's output and the correct answer.
+
+![Screenshot of evaluator](images/image3.png)
+
+Tweaking:
+I tweaked Cell 12 by adding print statements that display the reference output, run output, and expected evaluation result before running the semantic similarity comparison. This makes it clearer what the evaluator is comparing.
+file: Jaideep_Singh_2210110675_MAT496/notebooks/module_2/evaluators.ipynb
