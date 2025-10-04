@@ -38,3 +38,5 @@ Tweaking:
 Cell 6, Added print statements to show progress when uploading dataset examples - displays how many examples are being uploaded and confirms successful upload.
 Cell 11, Added print statements to show the question being asked and when a response is received from the RAG application.
 file: Jaideep_Singh_2210110675_MAT496/notebooks/module_2/dataset_upload.ipynb
+
+![alt text](image.png)
