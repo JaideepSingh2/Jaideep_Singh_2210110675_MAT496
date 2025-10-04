@@ -55,3 +55,21 @@ In LangSmith, an experiment is the process of running your application against a
 
 Tweaking:
 Added my own dataset, it's custom tag versions, my own custom splits, also played around with different models to see how it changes the experiment.
+
+Video4:
+It was about analyzing experiments through langsmith ui. I analyzed my video3 experiments by following the video instructions. Compared different model performances, understood the metrics, and checked some other dashboard analytics.
+
+Some screenshots:
+
+![](images/image5.png)
+
+![](images/image6.png)
+
+![](images/image7.png)
+
+![](images/image8.png)
+
+![](images/image9.png)
+
+Tweaking:
+There was no code so no code done on tweaking, but I showed the experiment analysis on some my own evaluators, tags and models, also explored some more metrics and parameters in the dashboard. You can check the same in the screenshots.
