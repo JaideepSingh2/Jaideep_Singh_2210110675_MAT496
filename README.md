@@ -87,5 +87,5 @@ Tweakings:
 ![](images/m3i2.png)
 (played with the output schema)
 
-File: ![notebooks/module_3/prompt_engineering_lifecycle.ipynb](notebooks/module_3/prompt_engineering_lifecycle.ipynb)
+File: ![notebooks/module_3/playground_experiments.ipynb](notebooks/module_3/playground_experiments.ipynb)
 Used my own prompts and answers about states and cities instead of colors and thus created my own dataset. Then experimented with that dataset in playground.
