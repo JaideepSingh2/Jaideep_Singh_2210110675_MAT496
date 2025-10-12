@@ -101,3 +101,14 @@ Tweakings:
 I changed the prompt from a pirate of 1600s and answering in spanish to an indian maharaja in 1600s or 2731 in future and changed the question will he conquer bengal, and answering in Punjabi. Rest learned and followed videos instructions.
 
 file: ![Jaideep_Singh_2210110675_MAT496/notebooks/module_3/prompt_hub.ipynb](notebooks/module_3/prompt_hub.ipynb)
+
+Video3:
+I learned the full prompt engineering lifecycle: establishing a baseline, creating a test dataset for evaluation, pulling an improved prompt from the LangSmith Hub, integrating it into my application, and re-running it to measure the impact of the change.
+
+Tweakings:
+Used my own custom dataset about copilot prompt engineering instead about tracing and subsequently created a custom prompt about prompt engineering.
+
+![](images/m3v3i2.png)
+(testing of prompt using custom prompt engineering dataset)
+
+file: ![notebooks/module_3/prompt_engineering_lifecycle.ipynb](notebooks/module_3/prompt_engineering_lifecycle.ipynb)

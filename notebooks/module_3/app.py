@@ -20,6 +20,8 @@ Use three sentences maximum and keep the answer concise.
 
 openai_client = OpenAI()
 
+# ...existing code...
+
 def get_vector_db_retriever():
     persist_path = os.path.join(tempfile.gettempdir(), "union.parquet")
     embd = OpenAIEmbeddings()
@@ -42,15 +44,32 @@ def get_vector_db_retriever():
     )
     doc_splits = text_splitter.split_documents(ls_docs)
 
-    vectorstore = SKLearnVectorStore.from_documents(
-        documents=doc_splits,
-        embedding=embd,
-        persist_path=persist_path,
-        serializer="parquet"
-    )
+    # --- FIX: Batch embeddings to avoid exceeding token limit ---
+    def batch_documents(documents, batch_token_limit=290000):
+        batches = []
+        current_batch = []
+        current_tokens = 0
+        for doc in documents:
+            # Estimate tokens (roughly 1 token per 4 characters for English)
+            doc_tokens = max(1, len(doc.page_content) // 4)
+            if current_tokens + doc_tokens > batch_token_limit and current_batch:
+                batches.append(current_batch)
+                current_batch = []
+                current_tokens = 0
+            current_batch.append(doc)
+            current_tokens += doc_tokens
+        if current_batch:
+            batches.append(current_batch)
+        return batches
+
+    batches = batch_documents(doc_splits)
+    vectorstore = SKLearnVectorStore(embedding=embd, persist_path=persist_path, serializer="parquet")
+    for batch in batches:
+        vectorstore.add_documents(batch)
     vectorstore.persist()
     return vectorstore.as_retriever(lambda_mult=0)
 
+# ...existing code...
 nest_asyncio.apply()
 retriever = get_vector_db_retriever()
 
