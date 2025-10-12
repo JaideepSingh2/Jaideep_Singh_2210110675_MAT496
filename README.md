@@ -112,3 +112,12 @@ Used my own custom dataset about copilot prompt engineering instead about tracin
 (testing of prompt using custom prompt engineering dataset)
 
 file: ![notebooks/module_3/prompt_engineering_lifecycle.ipynb](notebooks/module_3/prompt_engineering_lifecycle.ipynb)
+
+Video 4:
+Learnt that using Prompt Canvas in langsmith, I can create/improve my prompts for a better result and that it helps in designing a good prompt. Learnt about quick actions for standardizing some actions for Prompt templates across organization or for future uses. Learnt about Diff view.
+
+Tweakings:
+Used my last royal-friend prompt (indian maharaja one). Using prompt canvas modfied the prompt context to add some history about the maharaja and it's wars. Added a quick action to fix errors if the prompt does not uses the facts from context.
+
+![](images/m3v4i1.png)
+![](images/m3v4i2.png)
