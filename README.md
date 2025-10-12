@@ -89,3 +89,15 @@ Tweakings:
 
 File: ![notebooks/module_3/playground_experiments.ipynb](notebooks/module_3/playground_experiments.ipynb)
 Used my own prompts and answers about states and cities instead of colors and thus created my own dataset. Then experimented with that dataset in playground.
+
+Video2:
+I learned that the LangSmith Prompt Hub is a central place to store and manage different versions of your prompt templates over time. These templates can bundle everything, including system messages and model settings like temperature. You can then easily pull these complete configurations into your Python code using the `include_model=True` flag.
+
+Tweakings:
+
+![custom prompt template](images/m3v2i1.png)
+(My own custom prompt)
+
+I changed the prompt from a pirate of 1600s and answering in spanish to an indian maharaja in 1600s or 2731 in future and changed the question will he conquer bengal, and answering in Punjabi. Rest learned and followed videos instructions.
+
+file: ![Jaideep_Singh_2210110675_MAT496/notebooks/module_3/prompt_hub.ipynb](notebooks/module_3/prompt_hub.ipynb)
