@@ -73,3 +73,19 @@ Some screenshots:
 
 Tweaking:
 There was no code so no code done on tweaking, but I showed the experiment analysis on some my own evaluators, tags and models, also explored some more metrics and parameters in the dashboard. You can check the same in the screenshots.
+
+Module3:
+
+Video1:
+The LangSmith Playground is an interactive environment for rapidly testing and refining prompts without writing code. You can use it to compare how different models perform on the same prompt, check for consistency using repetitions, and evaluate the output against a dataset of examples.
+
+Tweakings:
+
+![](images/m3i1.png)
+(used my own prompts and ai models just for fun)
+
+![](images/m3i2.png)
+(played with the output schema)
+
+File: ![notebooks/module_3/prompt_engineering_lifecycle.ipynb](notebooks/module_3/prompt_engineering_lifecycle.ipynb)
+Used my own prompts and answers about states and cities instead of colors and thus created my own dataset. Then experimented with that dataset in playground.
