@@ -8,4 +8,4 @@ I learned to make the graph follow a conversation by adding messages to its stat
 Tweaking:
 Added a cell in the last that demonstrates and tests the random node selection behavior by running the graph multiple times and tracking which nodes were selected.
 
-file: ![](simple-graph.ipynb)
+file: ![simple-graph.ipynb](simple-graph.ipynb)
