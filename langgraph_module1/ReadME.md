@@ -33,3 +33,13 @@ Tweaking:
 Added a new code cell at the end that demonstrates how the router graph handles an input that does not require a tool call (e.g., a general greeting). This highlights the router's ability to bypass tool usage and return a direct LLM response.
 
 file: ![langgraph_module1/router.ipynb](router.ipynb)
+
+Module 1, Video 6:
+
+In this video, we learned how to use tools recursively, meaning the output goes back to the caller until the desired result is achieved. We also added tracing to see the process and details in Langsmith, similar to what we did in Langchain.
+
+Tweaking:
+
+Added a new code cell at the end of the notebook that demonstrates using the agent to solve a different arithmetic sequence, showing the flexibility of the agent loop.
+
+file: ![langgraph_module1/agent.ipynb](agent.ipynb)
