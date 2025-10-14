@@ -14,3 +14,12 @@ Module 1, Video3:
 In this video, we used the Langsmith studio interface for the first time. It helps with debugging and reviewing different cases, giving a clear visual view of our structure. No coding was done in this video.
 
 ![](langgraph_images/Screenshot_20251026_002843.png)
+
+Module 1, Video4:
+
+We expand simple graphs by connecting different concepts into chains. We start with messages, which store the whole conversation in a list. Next, we create a simple tool that performs one operation. Finally, we combine these messages and tools in a graph with an LLM model to show a chain executing successfully.
+
+Tweaking:
+I expanded the agent's capabilities by adding a new subtract tool to the list of available functions. Update the cell that defines tools and the cell that binds them to the LLM.
+
+file: ![langgraph_module1/chain.ipynb](chain.ipynb)
