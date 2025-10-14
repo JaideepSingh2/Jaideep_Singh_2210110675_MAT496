@@ -23,3 +23,13 @@ Tweaking:
 I expanded the agent's capabilities by adding a new subtract tool to the list of available functions. Update the cell that defines tools and the cell that binds them to the LLM.
 
 file: ![langgraph_module1/chain.ipynb](chain.ipynb)
+
+Module1, Video 5:
+I understood that to demonstrate routing, a tool is added to the tools list. The LLM decides when to use the tool based on a preset condition. If a question is unrelated, the LLM does not call the tool, but it does use it for relevant questions.
+
+![](langgraph_images/v5i1.png)
+
+Tweaking:
+Added a new code cell at the end that demonstrates how the router graph handles an input that does not require a tool call (e.g., a general greeting). This highlights the router's ability to bypass tool usage and return a direct LLM response.
+
+file: ![langgraph_module1/router.ipynb](router.ipynb)
