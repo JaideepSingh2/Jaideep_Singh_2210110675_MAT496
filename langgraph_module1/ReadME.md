@@ -43,3 +43,15 @@ Tweaking:
 Added a new code cell at the end of the notebook that demonstrates using the agent to solve a different arithmetic sequence, showing the flexibility of the agent loop.
 
 file: ![langgraph_module1/agent.ipynb](agent.ipynb)
+
+Module 1, Video 7:
+
+I Learned how to add memory to the agent. Checkpoints were implemented for memory using thread id to save the state.
+
+![](langgraph_images/v7i1.png)
+
+Tweaking:
+
+Added a new tool modulo for modulus operation, update the tools list, and demonstrate its use in a new code cell (last cell) with memory.
+
+file: ![langgraph/agent-memory.ipynb](agent-memory.ipynb)
